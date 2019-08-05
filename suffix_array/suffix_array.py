@@ -19,5 +19,20 @@ def suffix_array_alternative_naive(s):
     print(suffix_array)
     return suffix_array
 
-
+print("Input string is: banana\n")
 generated_suffix_array = suffix_array_alternative_naive('banana')
+
+
+"""
+Output:
+Input string is: banana
+
+Suffix strings with index are:
+[('banana', 0), ('anana', 1), ('nana', 2), ('ana', 3), ('na', 4), ('a', 5)]
+
+Sorted suffix strings with index are:
+[('a', 5), ('ana', 3), ('anana', 1), ('banana', 0), ('na', 4), ('nana', 2)]
+
+Final suffix array is:
+[5, 3, 1, 0, 4, 2]
+"""
